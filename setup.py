@@ -5,7 +5,7 @@ ANTLR_RUNTIME_VERSION = '4.8'
 
 if sys.version_info.major == 3:
     antlr_runtime = "antlr4-python3-runtime"
-else sys.version_info.major == 2:
+elif sys.version_info.major == 2:
     antlr_runtime = "antlr4-python2-runtime"
 
 setup(
